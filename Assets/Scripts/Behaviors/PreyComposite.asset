@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0e389959e4bb904282ea44611283eb0, type: 3}
+  m_Name: PreyComposite
+  m_EditorClassIdentifier: 
+  behaviors:
+  - behaviors: {fileID: 11400000, guid: 1e771920d21026143bccfdb3315916a1, type: 2}
+    weights: 10
+  - behaviors: {fileID: 11400000, guid: 31270caeb8633d14da7d68772d06dcc3, type: 2}
+    weights: 1
+  - behaviors: {fileID: 11400000, guid: b9989b4a54c5ca44a96cc7b694489aa0, type: 2}
+    weights: 7
+  - behaviors: {fileID: 11400000, guid: a742c441c53451c479e3af2a10912801, type: 2}
+    weights: 1
+  - behaviors: {fileID: 11400000, guid: 01a9e4f33aa5915408c41cb8dd1b43ad, type: 2}
+    weights: 3
+  - behaviors: {fileID: 11400000, guid: f0b6387a1e2262449b8c9163fce7b1f6, type: 2}
+    weights: 5
+  - behaviors: {fileID: 11400000, guid: e473072c45a798f4f8ae342304ed3aea, type: 2}
+    weights: 0
+  - behaviors: {fileID: 11400000, guid: a76404524c1b2fa48a8f446cffe056db, type: 2}
+    weights: 1
+  - behaviors: {fileID: 11400000, guid: d1b94adeb2f6010489d7f7c467c2f361, type: 2}
+    weights: 0
